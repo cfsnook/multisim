@@ -51,5 +51,5 @@ Require-Bundle: org.eclipse.core.runtime,
  org.rodinp.core.emf,
  org.eventb.emf.core.edit;visibility:=reexport
 Bundle-ActivationPolicy: lazy
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: ac.soton.multisim.diagram

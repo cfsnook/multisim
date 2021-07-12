@@ -4,5 +4,5 @@ Bundle-Name: Multisim Branding
 Bundle-SymbolicName: ac.soton.multisim.branding
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: University of Southampton
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: ac.soton.multisim.branding

@@ -10,7 +10,7 @@ Bundle-ClassPath: .,
 Bundle-Activator: ac.soton.multisim.provider.ComponentsEditPlugin$Implementation
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: ac.soton.multisim;
   uses:="info.monitorenter.gui.chart,
    org.eclipse.emf.ecore,
