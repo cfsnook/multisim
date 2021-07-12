@@ -34,3 +34,4 @@ Export-Package: ac.soton.multisim.ui.actions,
  ac.soton.multisim.ui.viewers,
  ac.soton.multisim.ui.wizards.controls,
  ac.soton.multisim.ui.wizards.pages
+Automatic-Module-Name: ac.soton.multisim.ui

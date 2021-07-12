@@ -52,3 +52,4 @@ Require-Bundle: org.eclipse.core.runtime,
  org.eventb.emf.core.edit;visibility:=reexport
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Automatic-Module-Name: ac.soton.multisim.diagram
