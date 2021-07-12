@@ -1168,9 +1168,10 @@ public class MultisimDocumentProvider extends AbstractDocumentProvider
 						EventBComponent compCopy = (EventBComponent) EcoreUtil
 								.copy(comp);
 						try {
+							
 							Resource resource = domain.getResourceSet()
 									.getResource(
-											compCopy.getMachine().getURI(),
+											EcoreUtil.getURI(compCopy.getMachine()),
 											true);
 
 							if (resource != null && resource.isLoaded()) {
