@@ -5,23 +5,24 @@ Bundle-SymbolicName: ac.soton.multisim.ui;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: ac.soton.multisim.ui.MultisimUIActivator
 Bundle-Vendor: University of Southampton
-Require-Bundle: org.eclipse.core.runtime,
- org.eclipse.core.expressions,
- org.eclipse.ui,
- org.eclipse.ui.ide,
- org.eclipse.ui.navigator,
- org.eclipse.emf.transaction,
- org.eclipse.gmf.runtime.diagram.ui,
- ac.soton.multisim;bundle-version="1.0.0",
- ac.soton.multisim.master;bundle-version="1.0.0",
- ac.soton.multisim.diagram;bundle-version="1.0.0",
- ac.soton.eventb.emf.core.extension.navigator;bundle-version="[4.1.0,5.0.0)",
- org.eventb.core,
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.18.0,4.0.0)",
+ org.eclipse.core.expressions;bundle-version="[3.6.800,4.0.0)",
+ org.eclipse.ui;bundle-version="[3.117.0,4.0.0)",
+ org.eclipse.ui.ide;bundle-version="[3.17.100,4.0.0)",
+ org.eclipse.ui.navigator;bundle-version="[3.9.300,4.0.0)",
+ org.eclipse.emf.transaction;bundle-version="[1.9.1,2.0.0)",
+ org.eclipse.gmf.runtime.diagram.ui;bundle-version="[1.9.0,2.0.0)",
+ ac.soton.multisim;bundle-version="[1.0.0,2.0.0)",
+ ac.soton.multisim.master;bundle-version="[1.0.0,2.0.0)",
+ ac.soton.multisim.diagram;bundle-version="[1.0.0,2.0.0)",
+ ac.soton.eventb.emf.core.extension.navigator;bundle-version="[5.1.0,6.0.0)",
+ org.eventb.core;bundle-version="[3.4.0,4.0.0)",
  org.eventb.emf.persistence;bundle-version="[3.4.0,4.0.0)",
  de.prob2.kernel.bundle;bundle-version="[1.0.0,1.1.0)",
  de.prob2.ui.eclipse;bundle-version="[1.0.0,1.1.0)",
- org.rodinp.core,
- org.eclipse.jface
+ org.rodinp.core;bundle-version="[1.8.0,2.0.0)",
+ org.eclipse.jface;bundle-version="[3.20.0,4.0.0)",
+ com.google.guava;bundle-version="[27.1.0,28.0.0)"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Export-Package: ac.soton.multisim.ui.actions,
